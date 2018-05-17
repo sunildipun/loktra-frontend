@@ -1,0 +1,63 @@
+.applet {
+	border-radius: 5px;
+	width: 75%;
+	margin: auto;
+	margin-top: 10%;
+	font-family: 'Lato';
+	background: #ffffff;
+    background-size: 300%;
+    border: 1px solid #000;
+}
+
+
+.applet-title {
+    padding: 16%;
+    height: 10%;
+    width: 50%;
+    border: 2px solid #d8d0c9;
+    margin: auto;
+    margin-top: 15%;
+}
+
+
+
+card{
+    margin: 5% 5%;
+}
+
+.text{
+    width: 48%;
+}
+
+.give{
+    width: 48%;
+    border-radius: 5px;
+    background: #00d526;
+    color: #fff;
+}
+
+#button{
+    width: 45%;
+    margin-top: 5%;
+   
+}
+
+#button1{
+    width: 52%;
+    margin-top: 5%;
+}
+
+.applet-content {
+	padding: 10%;
+	background: hsla(0, 0%, 100%, 0.5);
+}
+
+@media screen and (min-width: 480px) {
+    button {
+        width: 100%;
+        margin-top: 2%;
+    margin-bottom: 2%;    }
+    #buttonTell button {
+        width: 100%;
+    }
+}

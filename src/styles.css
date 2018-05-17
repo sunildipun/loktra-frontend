@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+
+mat-progress-bar.my-color .mat-progress-bar-fill::after {
+    background-color: #ff342a;
+  }
+
+/** Import core style */
+@import "~ngx-sharebuttons/styles/share-buttons";
+ 
+/** Import a theme */
+@import "~ngx-sharebuttons/styles/themes/circles/circles-theme";
