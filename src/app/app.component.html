@@ -1,8 +1,9 @@
 <div class="applet">
   <div class="applet-title">
-    <div style="background-color: #000000; color: #ffffff; padding: 20px; font-weight: bold; border-radius: 8px; margin-bottom: 3%;">
+    <div style="background-color: #000000; color: #ffffff; padding: 20px; font-weight: bold; border-radius: 8px; margin-bottom: -2%;">
       <a>${{remaining}} still needed for this project</a>
     </div>
+    <img style="margin-left: 90%;" src="https://png.icons8.com/ios/20/000000/sort-down-filled.png">
     <mat-progress-bar class="my-color" mode="determinate" value="{{moneyValue}}"></mat-progress-bar>
     <mat-card>
       <h3 id="head"><a style="color:  #ff342a">Only 3 days left</a> fund this project</h3>
@@ -13,7 +14,7 @@
           <span matPrefix>$ &nbsp;</span>
           <input type="number" matInput placeholder="Money" formControlName="money" (input)="number(f)">
         </mat-form-field>
-        <button class="give" mat-button (click)="donateMoney(f)">Give Now</button>
+        <button class="give" mat-button (click)="donateMoney(f)"><b>Give Now</b></button>
       </form>
 
       <h3 style="color: #009bd7" href="#">Why give ${{donateNumber}}?</h3>

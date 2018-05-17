@@ -2,11 +2,11 @@
 	border-radius: 5px;
 	width: 75%;
 	margin: auto;
-	margin-top: 10%;
+	margin-top: 5%;
 	font-family: 'Lato';
 	background: #ffffff;
     background-size: 300%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 
